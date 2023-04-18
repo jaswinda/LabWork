@@ -1,5 +1,11 @@
-public class Main {
+public class Main{
     public static void main(String[] args) {
-        new BankGUI();
+
+         for (int i = 0; i<3; i++){
+             MultiThredingDemo t1 = new MultiThredingDemo();
+             t1.start();
+         }
+
+
     }
 }
